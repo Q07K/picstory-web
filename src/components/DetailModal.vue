@@ -195,7 +195,7 @@
   .modal-overlay {
     position: fixed;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 50;
     display: flex;
     align-items: center;
@@ -206,7 +206,7 @@
   .nav-button {
     position: absolute;
     z-index: 60;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     padding: 0.75rem;
     border-radius: 50%;
@@ -216,21 +216,21 @@
   }
 
   .nav-button:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
     transform: scale(1.1);
   }
 
   .prev-button {
-    left: 1rem;
+    left: 10rem;
   }
 
   .next-button {
-    right: 1rem;
+    right: 10rem;
   }
 
   .nav-icon {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 3rem;
+    height: 3rem;
   }
 
   .modal-content {
@@ -239,7 +239,6 @@
     max-width: 80rem;
     max-height: 90vh;
     border-radius: 1rem;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     overflow: hidden;
