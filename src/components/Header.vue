@@ -1,7 +1,9 @@
 <template>
   <header class="header">
     <div class="header-container">
-      <button @click="$emit('navigate', 'feed')" class="logo">Picstory</button>
+      <button @click="$emit('navigate', 'feed')" class="logo">
+        <img src="@/assets/logo.png" alt="Picstory" class="logo-img" />
+      </button>
       <div v-if="currentPage === 'feed'" class="search-container">
         <input
           type="search"
@@ -82,13 +84,22 @@
   }
 
   .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #f59e0b;
-    font-family: 'Times New Roman', serif;
     background: none;
     border: none;
     cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-img {
+    height: 2.5rem;
+    width: auto;
+    transition: opacity 0.3s ease;
+  }
+
+  .logo:hover .logo-img {
+    opacity: 0.8;
   }
 
   .search-container {
