@@ -23,7 +23,7 @@
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
-            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0z"
+            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
           ></path>
         </svg>
       </div>
@@ -139,7 +139,7 @@
   .nav-buttons {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .nav-btn {
@@ -166,7 +166,7 @@
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
-    border: 2px solid #374151;
+    border: 2px solid #513737;
     transition: border-color 0.3s ease;
   }
 
