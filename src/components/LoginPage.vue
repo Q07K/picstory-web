@@ -1,7 +1,7 @@
 <template>
   <div class="login-page">
     <div class="login-container">
-      <h1 class="logo">Picstory</h1>
+      <img src="@/assets/logo.png" alt="Picstory" class="logo">
       <p class="subtitle">당신의 이야기를 사진으로</p>
       
       <div class="login-form">
@@ -72,11 +72,9 @@ export default {
 }
 
 .logo {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #f59e0b;
+  height: 10rem;
+  width: auto;
   margin-bottom: 0.5rem;
-  font-family: 'Times New Roman', serif;
 }
 
 .subtitle {
@@ -160,7 +158,7 @@ export default {
 
 @media (max-width: 768px) {
   .logo {
-    font-size: 2.5rem;
+    height: 3rem;
   }
   
   .login-form {
