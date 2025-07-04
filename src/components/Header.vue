@@ -166,7 +166,7 @@
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
-    border: 2px solid #513737;
+    border: 2px solid #374151;
     transition: border-color 0.3s ease;
   }
 
