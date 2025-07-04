@@ -2,7 +2,7 @@
   <div class="gallery-page">
     <!-- Header -->
     <AppHeader
-      :currentPage="'gallery'"
+      currentPage="gallery"
       @navigate="handleNavigate"
       @search="handleSearch"
     />
