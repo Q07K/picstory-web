@@ -2,7 +2,7 @@
   <div class="profile-page">
     <!-- Header -->
     <AppHeader
-      :currentPage="'profile'"
+      currentPage="profile"
       @navigate="handleNavigate"
       @search="handleSearch"
     />
