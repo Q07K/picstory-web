@@ -2,7 +2,7 @@
   <div class="feed-page">
     <!-- Header -->
     <AppHeader
-      :currentPage="'feed'"
+      currentPage="feed"
       @navigate="handleNavigate"
       @search="handleSearch"
     />
