@@ -27,8 +27,8 @@ COPY nginx.conf /etc/nginx/nginx.conf
 # 빌드된 파일을 Nginx 정적 파일 디렉토리로 복사
 COPY --from=build-stage /app/dist /usr/share/nginx/html
 
-# 80 포트 노출
-EXPOSE 80
+# 8080 포트 노출
+EXPOSE 8080
 
 # Nginx 실행
 CMD ["nginx", "-g", "daemon off;"]
